@@ -7,8 +7,8 @@
 1) Create a `config.env` file within the `config` folder
 2) Use the following code within the `config.env` file
 
-   `NODE_ENV=development`
-   `PORT=5000`
+   `NODE_ENV=development`   
+   `PORT=5000`   
    `MONGO_URI=YOUR_MONGO_URI_HERE`   
 
 3) Run `npm run dev` to run on `localhost:5000`
