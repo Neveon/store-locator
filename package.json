@@ -1,0 +1,30 @@
+{
+  "name": "store-locator",
+  "version": "1.0.0",
+  "description": "#### Following Traversy Media Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neveon/store-locator.git"
+  },
+  "author": "Neil T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neveon/store-locator/issues"
+  },
+  "homepage": "https://github.com/Neveon/store-locator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
