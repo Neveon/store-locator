@@ -9,6 +9,8 @@
 
    `NODE_ENV=development`   
    `PORT=5000`   
-   `MONGO_URI=YOUR_MONGO_URI_HERE`   
+   `MONGO_URI=YOUR_MONGO_URI_HERE`  
+   `GEOCODER_PROVIDER=YOUR_CHOSEN_PROVIDER`
+   `GEOCODER_API_KEY=YOUR_API_KEY`   
 
 3) Run `npm run dev` to run on `localhost:5000`
