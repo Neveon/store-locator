@@ -1,9 +1,10 @@
 const express = require('express');
-const { getStores } = require('../controllers/stores');
+const { getStores, addStore } = require('../controllers/stores');
 
 const router = express.Router();
 
 // When GET request sent to /api/v1/stores, getStores is used
-router.route('/').get(getStores);
+// addStore used when POST request sent
+router.route('/').get(getStores).post(addStore);
 
 module.exports = router;
